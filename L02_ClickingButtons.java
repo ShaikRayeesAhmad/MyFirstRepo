@@ -15,7 +15,6 @@ public class L02_ClickingButtons {
 		driver.findElement(By.cssSelector("button#btn_three")).click();
 		Thread.sleep(3000);
 		driver.close();
-		driver.quit();
 
 	}
 
